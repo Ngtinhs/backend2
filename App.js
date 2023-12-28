@@ -38,7 +38,10 @@ mongoose
 
 //
 app.use((req, res, next) => {
-  res.setHeader("Access-Control-Allow-Origin", "https://getcode-mu.vercel.app");
+  res.setHeader(
+    "Access-Control-Allow-Origin",
+    "https://laymakhuyenmai.vercel.app"
+  );
   next();
 });
 
