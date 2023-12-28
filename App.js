@@ -38,7 +38,7 @@ mongoose
 
 //
 app.use((req, res, next) => {
-  res.setHeader("Access-Control-Allow-Origin", "http://localhost:3000");
+  res.setHeader("Access-Control-Allow-Origin", "https://getcode-mu.vercel.app");
   next();
 });
 
